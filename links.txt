@@ -1,0 +1,17 @@
+4bfefd7e7b9da27fb03b8d24aacdeb63
+https://api.themoviedb.org/3/configuration
+multi?query=avarter&
+
+const options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YmZlZmQ3ZTdiOWRhMjdmYjAzYjhkMjRhYWNkZWI2MyIsInN1YiI6IjY0NzE4ZTQ1ZGQ3MzFiMDBjMGJhNzFkYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IMMP9Y--op_DXNKImsgpl0W3qm1RuCBigDRuddnrCrM'
+  }
+};
+https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1
+https://api.themoviedb.org/3/movie/popular?language=en-US&page=1
+https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1
+https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1
+https://api.themoviedb.org/3/search/movie?include_adult=false&language=en-US&page=1
+https://api.themoviedb.org/3/movie/movie_id?language=en-US
