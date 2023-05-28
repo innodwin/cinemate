@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 
 export const useFetch = (url, queryTerm = "") => {
   const parentUrl = "https://api.themoviedb.org/3/";
@@ -20,7 +20,7 @@ export const useFetch = (url, queryTerm = "") => {
         setData(jsonData.results);
       } catch (error) {
         setData([]);
-        error = "Failed! could not load data, try again";
+       
       }
      
     }

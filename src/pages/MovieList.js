@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom"
 import { Card } from "../components"
 import { useFetch } from "../hooks/useFetch";
-import { useEffect } from "react";
 import { useTitle } from "../hooks/useTitle";
 
 export const MovieList = ({ apiPath, title }) => {
@@ -13,7 +11,7 @@ export const MovieList = ({ apiPath, title }) => {
   }
 
 
-  const { data: movies, log: error } = useFetch(url);
+  const { data: movies } = useFetch(url);
 
   useTitle(`${title} / Cinemate`);
   return (
